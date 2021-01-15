@@ -21,7 +21,7 @@ $(document).ready(function() {
     if (coderOS==="Linux"||coderBeverage==="wine"){
       clear();
       $(".output1").show();
-    } else if (coderOS==="macOS"||coderBeverage==="Mountain Dew"){
+    } else if (coderOS==="macOS"&&coderBeverage==="Mountain Dew"||coderOS==="macOS"&&coderBeverage==="beer"){
       clear();
       $(".output2").show();
     } else if (coderOS==="windows"||coderBeverage==="almond milk"){
