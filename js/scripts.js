@@ -9,8 +9,8 @@ $(document).ready(function() {
     $(".userName").text(coderName);
     $(".userOS").text(coderOS);
     $(".userBeverage").text(coderBeverage);
-    $(".userName").text(dob);
-    $(".userName").text(color);
+    $(".userDob").text(dob);
+    $(".userColor").text(color);
   
   if (coderOS==="Linux") {
     $(".output").show();
