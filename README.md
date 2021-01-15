@@ -19,9 +19,9 @@ This project uses forms to allow the users to enter answers to questions/prompts
 
 ## Setup/Installation Requirements
 
-* 1. You can clone the repository to your desktop
-* 2. Navigate to the root directory of the project in the terminal and type 'open index.html' to view project in browser. OR you may use your computers graphical user interface to find index.html, and double-click to open in a browser.
-* 3. Open the project in a text editor to view the code.
+* You can clone the repository to your desktop
+* Navigate to the root directory of the project in the terminal and type 'open index.html' to view project in browser. OR you may use your computers graphical user interface to find index.html, and double-click to open in a browser.
+* Open the project in a text editor to view the code.
 
 ## Known Bugs
 
