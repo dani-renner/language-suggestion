@@ -12,8 +12,14 @@ $(document).ready(function() {
     $(".userDob").text(dob);
     $(".userColor").text(color);
   
-  if (coderOS==="Linux") {
-    $(".output").show();
-  }
-});
+    if (coderOS==="Linux") {
+      $(".output1").show();
+    } else if (coderOS==="macOS"){
+      $(".output2").show();
+    } else if (coderOS==="windows") {
+      $(".output3").show();
+    } else {
+      $(".output4").show();
+    }
+  });
 });

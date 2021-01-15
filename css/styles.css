@@ -3,6 +3,15 @@ h2 {
   padding-bottom: 50px;
   padding-top: 25px;
 }
-.output {
+.output1 {
+  display: none;
+}
+.output2 {
+  display: none;
+}
+.output3 {
+  display: none;
+}
+.output4 {
   display: none;
 }
