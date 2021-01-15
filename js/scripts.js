@@ -18,18 +18,19 @@ $(document).ready(function() {
       $(".output4").hide();
     }
   
-    if (coderOS==="Linux") {
+    if (coderOS==="Linux"||coderBeverage==="wine"){
       clear();
       $(".output1").show();
-    } else if (coderOS==="macOS"){
+    } else if (coderOS==="macOS"||coderBeverage==="Mountain Dew"){
       clear();
       $(".output2").show();
-    } else if (coderOS==="windows") {
+    } else if (coderOS==="windows"||coderBeverage==="almond milk"){
       clear();
       $(".output3").show();
     } else {
       clear();
       $(".output4").show();
     }
+    console.log(dob);
   });
 });

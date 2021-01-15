@@ -2,7 +2,14 @@ h2 {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 25px;
+  text-decoration:underline;
+}
+h3 {
+  color:blueviolet;
 }
 .output1,.output2, .output3, .output4 {
   display: none;
+}
+#question {
+  font-weight: bold;
 }

@@ -13,14 +13,14 @@
 <body>
   <div class="container">
     <h2>Which coding language you should learn? </h2>
-    <p>Answer the questions below for an arbitrary suggestion. You gotta start somewhere! Tell us about yourself:</p>
+    <h3>Answer the questions below for an arbitrary suggestion. You gotta start somewhere! Tell us about yourself:</h3>
     <form id="formOne">
       <div class="form-group">
-        <label for="coder">Your name:</label>
+        <label for="coder"><class id="question">Your name:</class></label>
         <input id="coder" class="form-control" type="text">
       </div>
       <div class="radio">
-        <p>What's your favorite operating system?</p>
+        <p><class id="question">What's your favorite operating system?</class></p>
         <div class = "selection">
           <label>
             <input type ="radio" name="OS" value="windows" checked>
@@ -40,7 +40,7 @@
           </label>
         </div>
       </div>
-      <p>What's your favorite beverage?</p>
+      <p><class id="question">What's your favorite beverage?</class></p>
       <select class="form-control" id="beverage">
         <option>water</option>
         <option>Mountain Dew</option>
@@ -48,15 +48,16 @@
         <option>wine</option>
         <option>almond milk</option>
       </select>
-      <p>Enter your birthdate:</p>
+      <p><class id="question">Enter your birthdate:</class></p>
       <div class="form-group">
         <label for="born">Date of birth:</label>
         <input id="born" class="form-control" type="date">
       </div>
       <div class="form-group">
-        <label for="color">What is your favorite color?</label>
+        <label for="color"><class id="question">What is your favorite color?</class></label>
         <input id="color" class="form-control" type="color">
       </div>
+      <p>Press 'Submit' and see below:</p>
     <button type="submit" class="btn btn-dark">Submit</button>
     </form>
     <div class="output1">
