@@ -11,14 +11,24 @@ $(document).ready(function() {
     $(".userBeverage").text(coderBeverage);
     $(".userDob").text(dob);
     $(".userColor").text(color);
+    function clear(){
+      $(".output1").hide();
+      $(".output2").hide();
+      $(".output3").hide();
+      $(".output4").hide();
+    }
   
     if (coderOS==="Linux") {
+      clear();
       $(".output1").show();
     } else if (coderOS==="macOS"){
+      clear();
       $(".output2").show();
     } else if (coderOS==="windows") {
+      clear();
       $(".output3").show();
     } else {
+      clear();
       $(".output4").show();
     }
   });
