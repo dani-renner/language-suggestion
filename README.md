@@ -23,8 +23,6 @@ This project uses forms to allow the users to enter answers to questions/prompts
 * Navigate to the root directory of the project in the terminal and type 'open index.html' to view project in browser. OR you may use your computers graphical user interface to find index.html, and double-click to open in a browser. Use Chrome for best results.
 * Open the project in a text editor to view the code.
 
-## Known Bugs
-
 
 
 ## License
