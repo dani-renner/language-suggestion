@@ -9,6 +9,10 @@ h3 {
 }
 .output1,.output2, .output3, .output4 {
   display: none;
+  padding-top: 35px;
+  color: #4A5356;
+  font-size: larger;
+  font-weight: bold;
 }
 #question {
   font-weight: bold;

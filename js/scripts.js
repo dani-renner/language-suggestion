@@ -16,21 +16,19 @@ $(document).ready(function() {
       $(".output2").hide();
       $(".output3").hide();
       $(".output4").hide();
-    }
-  
+    }  
     if (coderOS==="Linux"||coderBeverage==="wine"){
       clear();
       $(".output1").show();
     } else if (coderOS==="macOS"&&coderBeverage==="Mountain Dew"||coderOS==="macOS"&&coderBeverage==="beer"){
       clear();
       $(".output2").show();
-    } else if (coderOS==="windows"||coderBeverage==="almond milk"){
+    } else if (coderBeverage==="almond milk"||coderBeverage==="water"){
       clear();
       $(".output3").show();
     } else {
       clear();
       $(".output4").show();
     }
-    console.log(dob);
   });
 });
