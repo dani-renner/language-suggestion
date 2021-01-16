@@ -1,4 +1,4 @@
-# Language Suggestor 
+# Language Suggester 
 
 #### By Dani Renner
 #### Independent project that will gather input from the user to help them decide what coding language to learn
