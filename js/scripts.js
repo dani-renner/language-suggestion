@@ -4,31 +4,25 @@ $(document).ready(function() {
     let coderName = $("input#coder").val();
     let coderOS = $("input:radio[name=OS]:checked").val();
     let coderBeverage = $("#beverage").val();
-    let dob = $("#born").val();
-    let color = $("#color").val();
     $(".userName").text(coderName);
-    $(".userOS").text(coderOS);
-    $(".userBeverage").text(coderBeverage);
-    $(".userDob").text(dob);
-    $(".userColor").text(color);
     function clear(){
-      $(".output1").hide();
-      $(".output2").hide();
-      $(".output3").hide();
-      $(".output4").hide();
+      $(".cSharp").hide();
+      $(".rubyOnRails").hide();
+      $(".javascript").hide();
+      $("python").hide();
     }  
     if (coderOS==="Linux"||coderBeverage==="wine"){
       clear();
-      $(".output1").show();
+      $(".cSharp").show();
     } else if (coderOS==="macOS"&&coderBeverage==="Mountain Dew"||coderOS==="macOS"&&coderBeverage==="beer"){
       clear();
-      $(".output2").show();
+      $(".rubyOnRails").show();
     } else if (coderBeverage==="almond milk"||coderBeverage==="water"){
       clear();
-      $(".output3").show();
+      $(".javascript").show();
     } else {
       clear();
-      $(".output4").show();
+      $(".python").show();
     }
   });
 });

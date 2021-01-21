@@ -29,7 +29,7 @@ This project uses forms to allow the users to enter answers to questions/prompts
 
 [MIT](https://opensource.org/licenses/MIT)
 
-## Copyright
+Copyright © 2020 Dani Renner
 
 All Rights Reserved
 
